@@ -25,7 +25,7 @@ pip install requests
 pip install PyExecJS
 ```
 
-最后到解压目录下
+安装完成后关闭命令行，最后到解压目录下
 
 ![image-20220921153048461](README.assets/image-20220921153048461.png)
 
