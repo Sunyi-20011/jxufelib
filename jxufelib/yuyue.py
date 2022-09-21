@@ -86,7 +86,7 @@ def req(pos, num, day, user_id):
             print(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), end=' ')
             # print(e)
             print("第", con, "次连接异常，重连中...")
-            headers['User-Agent'] = User_Agents[random.randint(0, len(User_Agents))]
+            headers['User-Agent'] = User_Agents[random.randint(0, len(User_Agents)-1)]
             con += 1
             time.sleep(1)
 
