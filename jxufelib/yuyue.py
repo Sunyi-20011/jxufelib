@@ -37,7 +37,7 @@ User_Agents = [
 
 
 def main():
-    req('j001', 1, 0, '0lL68iMY74TFFuIjYG%2B0bA%3D%3D')
+    req('j001', 1, 0, '')
     #   四个参数
     # pos:位置
     # num:预约时间段(1:上午,2:下午,3:晚上)
